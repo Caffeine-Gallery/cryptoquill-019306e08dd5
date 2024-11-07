@@ -34,6 +34,17 @@ header {
     border-bottom: 1px solid var(--border-color);
 }
 
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+}
+
 h1 {
     font-size: 2em;
     font-weight: 700;
@@ -177,5 +188,13 @@ input[type="text"] {
 
     .post-title {
         font-size: 1.5em;
+    }
+
+    .logo {
+        height: 30px;
+    }
+
+    .header-left {
+        gap: 10px;
     }
 }
